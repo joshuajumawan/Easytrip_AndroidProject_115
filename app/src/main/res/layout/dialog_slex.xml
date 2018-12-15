@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_slex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easytrip.easytrip.tollfee_nlex"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Entry Points"
+                android:textSize="24dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Sucat"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Sucat"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Alabang"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Alabang"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Filinvest"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Filinvest"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="San Pedro"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/San_Pedro"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Southwoods"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Southwoods"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Carmona"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Carmona"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Sta. Rosa"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Sta._Rosa"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Cabuyao"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Cabuyao"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Silangan"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Silangan"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Calamba"
+                android:textSize="12dp"
+                android:background="@drawable/my_button"
+                android:id="@+id/Calamba"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:text="Back"
+                android:textSize="16sp"
+                android:id="@+id/back"
+                android:textColor="#595959"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

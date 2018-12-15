@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easytrip.easytrip.tollfee_nlex"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Class"
+            android:textSize="27dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 1 (Cars, Jeep, Pick-ups, Vans)"
+            android:textSize="12dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/class_1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 2 (Buses, Trucks with 2 axles)"
+            android:textSize="12dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/class_2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 3 (Trucks with 3 or more axles.
+            7 ft. above height)"
+            android:textSize="12dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/class_3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|right"
+            android:text="Back"
+            android:textSize="16sp"
+            android:id="@+id/back"
+            android:textColor="#595959"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
